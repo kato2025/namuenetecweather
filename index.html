@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--Weather container-->
+    <div class="container">
+        <!--Search area-->
+        <div class="searchArea">
+            <!--Header-->
+            <div class="header">
+                <img id="logo" src="siteLogo.png" alt="">
+                <h1 class="mainHeading">⛅ Weather App</h1>
+            </div>
+            <!--Search form to to send requests to fetch information from the weather API-->
+            <form id="city-form">
+                <input type="text" id="city-input" placeholder="Enter city name" required>
+                <button type="submit">Get Weather</button>
+            </form>
+        </div>
+        <!--Weather info returned from the weather API-->
+        <div id="weather-info"> </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <p>Developed by Dr. Kato Samuel Namuene</p>
+        <p>Email: kato.namuene@ubuea.cm</p>
+    </footer>
+</body>
+</html>

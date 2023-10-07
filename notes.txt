@@ -1,0 +1,1 @@
+http://api.weatherapi.com/v1/current.json?key=565becf7fe3844b586e141407230110&q=Douala&aqi=no
