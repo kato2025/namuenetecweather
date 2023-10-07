@@ -31,8 +31,8 @@ body {
     width: 50%;
     height: auto;
     font-size: calc(var(--small-font) + 5px);
-    color: var(--blakish);
-    text-shadow: 2px 2px 4px var(--yellowish);
+    color: var(--yellowish);
+    text-shadow: 1px 1px 1px red;
     text-align: center;
 }
 /* Searth area to fetch city from weather API */
@@ -111,8 +111,8 @@ p::first-letter {
 /* Footer */
 footer {
     margin-top: calc(var(--margins) + 10px);
-    color: var(--blakish);
-    text-shadow: 2px 2px 4px var(--yellowish);
+    color: var(--yellowish);
+    text-shadow: 1px 1px 2px #000;
 }
 footer p {
     margin-top: var(--margins);
