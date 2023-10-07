@@ -102,7 +102,7 @@ button:hover {
 p {
     margin-top: -25px;
     margin-bottom: calc(var(--margins) + 10px);
-    font-size: calc(var(--small-font) + 7px);
+    font-size: var(--small-font);
 }
 p::first-letter {
     vertical-align: middle;
