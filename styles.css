@@ -96,6 +96,7 @@ button:hover {
 /* Weather info from the weather API*/
 #weather-info {
     margin-top: -10px;
+    width: 100%;
     text-align: left;
 }
 p {
