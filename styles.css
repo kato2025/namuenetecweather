@@ -96,17 +96,20 @@ button:hover {
 /* Weather info from the weather API*/
 #weather-info {
     margin-top: -10px;
-    width: 100%;
+    padding: 20px;
+    width: 70%;
     text-align: left;
+    border: 1px solid var(--yellowish);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 p {
     margin-top: -25px;
     margin-bottom: calc(var(--margins) + 10px);
-    font-size: var(--small-font);
+    font-size: calc(var(--small-font) - 2px);
 }
 p::first-letter {
     vertical-align: middle;
-    font-size: var(--large-font-sizes);
+    font-size: calc(var(--large-font-sizes) - 10px);
 }
 /* Footer */
 footer {
