@@ -100,7 +100,7 @@ button:hover {
     width: 70%;
     text-align: left;
     border: 1px solid var(--yellowish);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 p {
     margin-top: -25px;
