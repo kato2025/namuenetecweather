@@ -58,6 +58,8 @@ form {
 }
 .mainHeading {
     margin-bottom: calc(var(--margins) + 10px);
+    width: 260px;
+    min-width: 255px;
     font-size: calc(var(--small-font) + 12px);
     color: #90ee90;
     text-shadow: 2px 2px 4px var(--blakish);
