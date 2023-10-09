@@ -97,9 +97,9 @@ button:hover {
 #weather-info {
     margin-top: -10px;
     padding: 20px;
-    width: 100%;
+    width: 300px;
+    font-size: 18px;
     text-align: left;
-    border: 1px solid var(--yellowish);
     background-color: rgba(0, 0, 0, 0.7);
 }
 p {
