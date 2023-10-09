@@ -68,8 +68,8 @@ form {
 }
 input[type="text"] {
     margin-right: var(--margins);
-    width: 320px;
-    min-width: 300px;
+    width: 300px;
+    min-width: 280px;
     padding: 10px;
     font-size: calc(var(--small-font) - 4px);
     border: 1px solid #ccc;
