@@ -106,7 +106,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 p {
-    margin-top: -25px;
+    margin-top: -20px;
     margin-bottom: calc(var(--margins) + 10px);
     font-size: calc(var(--small-font) - 2px);
 }
