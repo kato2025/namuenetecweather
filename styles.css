@@ -78,6 +78,8 @@ input[type="text"] {
 button {
     margin-top: var(--margins);
     padding: 10px 20px;
+    width: 160px;
+    min-width: 160px;
     font-size: var(--small-font);
     cursor: pointer;
     color: var(--yellowish);
