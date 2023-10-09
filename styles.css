@@ -122,7 +122,7 @@ footer {
 }
 footer p {
     margin-top: var(--margins);
-    font-size: 25px;
+    font-size: var(--small-font);
 }
 footer p::first-letter {
     vertical-align: middle;
